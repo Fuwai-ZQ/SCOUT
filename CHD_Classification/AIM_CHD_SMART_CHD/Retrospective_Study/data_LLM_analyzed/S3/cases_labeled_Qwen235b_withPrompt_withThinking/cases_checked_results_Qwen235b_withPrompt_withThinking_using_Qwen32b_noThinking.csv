@@ -1,0 +1,406 @@
+﻿case_id,final_label,rationale_short,has_contradiction,analysis
+CASE_0001,NSTEMI,外院明确诊断NSTEMI且发生在入院前10天（<30天），符合NSTEMI诊断标准,absent,一致
+CASE_0002,NSTEMI,2024-11-16肌钙蛋白升高（未注明非缺血原因）且在入院前9天（<30天），直接触发NSTEMI强制规则,absent,一致
+CASE_0003,NSTEMI,3日内cTnI升高且ECG示非STEMI型缺血改变，外院明确诊断NSTEMI,absent,一致
+CASE_0004,CCS,症状持续3月余且稳定，外院NSTEMI已超30天，无近期缺血证据，符合CCS,absent,一致
+CASE_0005,UA,症状加重32天前（<60天），夜间发作符合UA特征，既往心梗>30天且无新发缺血证据,absent,一致
+CASE_0006,NSTEMI,11-26日cTnI 2735pg/ml显著升高且未注明非缺血原因，符合NSTEMI标准（30天内）,absent,一致
+CASE_0007,NSTEMI,9小时急性胸痛伴cTnI显著升高（4.870ng/mL）且ECG缺血改变，符合NSTEMI诊断标准,absent,一致
+CASE_0008,NSTEMI,1周内症状进展，30天内两次cTn升高（0.064→3.491），ECG示孤立avR/V1 ST↑，符合NSTEMI,absent,一致
+CASE_0009,CCS,症状持续6个月（>60天）且无加重/恶化证据，符合CCS标准,absent,一致
+CASE_0010,NSTEMI,1月内肌钙蛋白升高且外院明确诊断NSTEMI，符合强制优先级规则,absent,一致
+CASE_0011,STEMI,STEMI诊断基于I/aVL/V5-6相邻导联ST抬高及肌钙蛋白显著升高，符合1个月内急性事件,absent,一致
+CASE_0012,STEMI,STEMI诊断需在30天内，V2-6导联ST段抬高符合强制ECG标准，无论肌钙蛋白结果,present,Rationale中提到STEMI诊断需在30天内，但Evidence中显示入院日（2024-11-25）与事件日（2024-11-21）之间仅相差4天，这在时间上是符合的。然而，Rationale中提到“无论肌钙蛋白结果”，而Evidence中显示肌钙蛋白为“阴性”，这与STEMI的典型诊断标准存在矛盾，因为肌钙蛋白阴性通常不支持STEMI的诊断。此外，Evidence中提到症状持续时间短且含服硝酸甘油缓解，这更倾向于不稳定型心绞痛而非STEMI。因此，存在诊断逻辑冲突。
+CASE_0013,STEMI,11月8日确诊急性下壁心梗，距入院20天在30天时间窗内，符合STEMI强制判定条件,absent,一致
+CASE_0014,STEMI,STEMI时间窗内（<30天），ECG示II、III、avF导联ST抬高，急诊PCI治疗,absent,一致
+CASE_0015,STEMI,15天前确诊急性前壁心梗，符合STEMI时间窗和定位诊断标准,present,Rationale中提到'15天前确诊急性前壁心梗，符合STEMI时间窗'，但STEMI的典型诊断时间窗通常为症状发作后12-24小时内，15天前不符合STEMI的时间窗定义。此外，Evidence中显示'未明确记录升高'和'未提及ECG结果'，缺乏支持STEMI诊断的关键证据（如肌钙蛋白升高和ECG变化）。因此，存在诊断逻辑和证据支持的矛盾。
+CASE_0016,STEMI,30天内下壁ST段抬高型心梗，急诊PCI证实RCA闭塞，肌钙蛋白显著升高,absent,一致
+CASE_0017,NSTEMI,30天内肌钙蛋白持续升高伴缺血症状及ST改变，符合NSTEMI,absent,一致
+CASE_0018,NSTEMI,1月内肌钙蛋白显著升高且ECG示缺血性ST改变，无非缺血原因说明，符合NSTEMI标准,absent,一致
+CASE_0019,NSTEMI,30天内肌钙蛋白持续升高且ECG无ST抬高，符合NSTEMI,absent,一致
+CASE_0020,STEMI,28天前确诊下壁右室急性心梗（STEMI），符合30天内病史且含定位诊断,absent,一致
+CASE_0021,UA,症状与活动无关且持续存在，时间窗超过60天但符合UA特征,absent,一致
+CASE_0022,CCS,症状稳定且病程>60天，血运重建术后54天无症状，符合CCS标准,absent,一致
+CASE_0023,CCS,症状持续半年且稳定，无急性缺血证据，符合CCS,absent,一致
+CASE_0024,CCS,症状持续4年且无近期加重，支架置入术后无症状，病程>2个月且无急性事件证据,absent,一致
+CASE_0025,CCS,既往急性心梗（41天前）且已行PCI治疗，当前无症状且病程超30天,absent,一致
+CASE_0026,CCS,既往心梗史均超过30天时间窗，当前症状持续1年且无急性缺血证据，符合CCS标准,absent,一致
+CASE_0027,CCS,症状持续4年且术后症状仍由活动诱发，病程>2个月无加重特征,absent,一致
+CASE_0028,CCS,症状加重事件距入院88天（>60天），当前无急性缺血证据，符合CCS时间窗,absent,一致
+CASE_0029,STEMI,外院明确STEMI诊断且行PCI治疗，根据规则五.2及A.5，默认30天内发生，直接判定STEMI。,absent,一致
+CASE_0030,CCS,症状持续61天且稳定，无心梗证据，无近期缺血事件，符合CCS,absent,一致
+CASE_0031,信息不足,1月内有PCI史但术后无症状描述，缺乏cTn/ECG证据，无法满足UA或CCS标准,absent,一致
+CASE_0032,UA,症状持续1个月（<60天），ECG缺血改变但无ST抬高，无肌钙蛋白升高证据，符合UA新发标准,absent,一致
+CASE_0033,CCS,症状持续超2月且术后稳定，无近期肌钙蛋白升高，符合CCS,present,Rationale 中提到“症状持续超2月”，但 Evidence 中显示最近一次症状再发时间为2024-08，入院时间为2024-12-09，计算得症状再发到入院时间为124天（约4个月），因此“症状持续超2月”在时间上是成立的。然而，Rationale 中提到“无近期肌钙蛋白升高”，而 Evidence 中明确指出“2023-11曾升高（具体数值不详）”，这与“无近期肌钙蛋白升高”存在矛盾。此外，Evidence 中提到“术后偶有活动后胸痛”，但未明确说明当前肌钙蛋白是否正常，这可能影响对“无近期肌钙蛋白升高”的判断。
+CASE_0034,CCS,病程超过2个月且症状呈劳力性稳定模式，无近期心梗证据,absent,一致
+CASE_0035,CCS,症状持续3月余且稳定，无急性心梗证据，未行血运重建,absent,一致
+CASE_0036,CCS,症状1年前稳定存在，术后无复发，近期无缺血症状且干预剩余狭窄，病程>2个月,absent,一致
+CASE_0037,CCS,症状持续91天且稳定，无急性心梗证据及肌钙蛋白升高，符合CCS诊断标准,absent,一致
+CASE_0038,CCS,症状持续4年且稳定，无近期加重或急性事件证据，符合CCS病程>2个月且无不稳定特征,absent,一致
+CASE_0039,CCS,症状持续超60天且术后无近期缺血证据，符合CCS稳定型特征,present,Rationale 中提到‘症状持续超60天’，Evidence 中也明确‘症状持续半年(>60天)’，这一点一致。但 Evidence 中提到‘入院前10天CT示冠脉重度狭窄’，而 Rationale 中未提及这一近期缺血证据，反而说‘术后无近期缺血证据’，这与 Evidence 中的‘入院前10天CT’存在矛盾，因为CT显示冠脉重度狭窄可能提示近期缺血。此外，Evidence 中指出‘症状持续时间描述存在‘近半年’与‘10天前CT’矛盾未明确’，进一步说明时间描述存在不一致。
+CASE_0040,CCS,症状持续3年且稳定，冠脉造影106天前，无近期缺血证据,absent,一致
+CASE_0041,UA,症状在60天内复发，无急性心梗证据，符合UA时间窗和复发特征,present,Rationale 中提到‘症状在60天内复发’，但 Evidence 中明确指出‘入院日 - 事件日 = 90天（近3个月）’，这与‘60天内复发’的说法存在时间计算矛盾。
+CASE_0042,CCS,既往NSTEMI发生于>30天前，目前症状稳定且无急性缺血证据，符合CCS时间窗,absent,一致
+CASE_0043,CCS,患者1月前发现冠脉严重狭窄但无缺血症状，入院时无急性表现，符合CCS标准,absent,一致
+CASE_0044,CCS,陈旧性心梗超过30天，当前无急性缺血证据，符合CCS,absent,一致
+CASE_0045,CCS,稳定劳力性心绞痛持续3年，无急性缺血证据，符合CCS标准,absent,一致
+CASE_0046,NSTEMI,外院明确诊断'急性非ST段抬高型心肌梗死'且在30天时间窗内,present,Rationale 中提到'急性非ST段抬高型心肌梗死'且在30天时间窗内，但 Evidence 中显示'入院日 - 事件日 = 30天（按'1月前'估算）'，这表明事件发生在30天前，已超出30天时间窗。此外，Evidence 中未明确记录肌钙蛋白（Tn）升高和ECG信息，这与急性心肌梗死的诊断标准存在不一致。
+CASE_0047,CCS,病程5月且术后无症状，无肌钙蛋白升高和ST段抬高证据，符合CCS,absent,一致
+CASE_0048,UA,症状加重发生于60天内且无心梗证据，符合UA新发/加重标准,absent,一致
+CASE_0049,CCS,患者2月前确诊冠脉多支病变但无缺血症状，符合CCS稳定期标准,absent,一致
+CASE_0050,CCS,患者无缺血症状，冠脉狭窄为陈旧性，符合CCS诊断标准,absent,一致
+CASE_0051,UA,症状持续2月内且进行性加重，ECG缺血但无ST抬高，cTn升高未注明非缺血原因,present,Rationale 中提到‘症状持续2月内’，但 Evidence 中显示‘事件始发日期为2024-12-04，入院日期为2025-01-10’，两者间隔为37天，不足2个月，存在时间计算矛盾。此外，Rationale 中提到‘近2周日间活动后症状加重’，但未明确说明症状加重是否与UA相关，而 Evidence 中的推断基于‘术后症状缓解且无近期cTn持续升高’，逻辑上存在一定的不严谨性。
+CASE_0052,NSTEMI,根据2024-11-19当地医院NSTEMI诊断，符合30天内急性事件且无非缺血原因说明,absent,一致
+CASE_0053,UA,症状新发1周（<60天），ECG示ST-T异常，无STEMI证据且cTn信息不全，符合UA标准。,absent,一致
+CASE_0054,NSTEMI,30天内明确NSTEMI诊断且接受介入治疗，符合NSTEMI时间窗和诊疗证据,absent,一致
+CASE_0055,UA,症状新发1个月且无急性心梗证据，符合UA新发标准,absent,一致
+CASE_0056,NSTEMI,8天前确诊急性非ST段抬高型心梗，肌钙蛋白升高未注明非缺血原因，符合NSTEMI强制诊断条件,absent,一致
+CASE_0057,NSTEMI,1个月内cTn升高且未注明非缺血原因，符合NSTEMI诊断标准,absent,一致
+CASE_0058,NSTEMI,肌钙蛋白I显著升高（11.300ng/mL↑）且ECG显示T波倒置，发病时间在30天内，符合NSTEMI诊断标准,absent,一致
+CASE_0059,NSTEMI,30天内确诊急性心肌梗死且cTn动态升高，ECG无ST抬高，符合NSTEMI标准,absent,一致
+CASE_0060,UA,症状加重发生在2天前（<60天），符合UA时间窗，无急性心梗证据,absent,一致
+CASE_0061,NSTEMI,患者2天前急性胸痛发作，两次肌钙蛋白升高且未注明非缺血原因，符合NSTEMI诊断标准。,absent,一致
+CASE_0062,NSTEMI,20天前发生NSTEMI诊断，符合30天时间窗且无非缺血原因，直接采信诊断标签,absent,一致
+CASE_0063,NSTEMI,1月内新发胸痛伴肌钙蛋白显著升高（0.434＞0.04）且无非缺血解释，符合NSTEMI标准,absent,一致
+CASE_0064,NSTEMI,入院当日5:00发作伴cTn升高且AVR/V1 ST抬高，但非STEMI型ST改变，符合NSTEMI标准,absent,一致
+CASE_0065,NSTEMI,30天内肌钙蛋白持续升高且诊断为急性心梗，ECG无ST抬高证据,absent,一致
+CASE_0066,NSTEMI,5天前cTnI显著升高且无非缺血原因，ECG无ST抬高，符合NSTEMI诊断标准,absent,一致
+CASE_0067,NSTEMI,肌钙蛋白在30天内两次升高（0.7/0.52）且未注明非缺血原因，症状持续20天,absent,一致
+CASE_0068,NSTEMI,外院明确诊断为NSTEMI且病程在30天内，符合NSTEMI强制标签规则,absent,一致
+CASE_0069,UA,症状持续存在且符合UA特征（夜间/休息发作），无近期cTn升高或STEMI证据，病程超2个月但症状特征优先,absent,一致
+CASE_0070,NSTEMI,1天内发病，aVR ST抬高但无相邻导联，cTn持续升高且未排除缺血性，强制NSTEMI,absent,一致
+CASE_0071,NSTEMI,30天内肌钙蛋白升高伴ST压低，无非缺血原因，符合NSTEMI标准,absent,一致
+CASE_0072,UA,3周前新发心绞痛症状在60天内，无STEMI/NSTEMI证据，符合UA标准,absent,一致
+CASE_0073,NSTEMI,1周前诊断急性心梗（<30天），无STEMI定位证据，默认NSTEMI诊断成立,absent,一致
+CASE_0074,NSTEMI,10天内休息时发作缺血症状，4天前肌钙蛋白升高伴ECG缺血改变，符合NSTEMI,absent,一致
+CASE_0075,NSTEMI,1周内肌钙蛋白升高（TnI 2.19）伴ECG多导联T波倒置，符合NSTEMI标准,absent,一致
+CASE_0076,NSTEMI,外院6天前确诊NSTEMI且在30天时间窗内，肌钙蛋白升高且无非缺血原因,absent,一致
+CASE_0077,UA,症状新发2天（<60天），无肌钙蛋白升高及ST抬高证据，符合UA新发标准,absent,一致
+CASE_0078,NSTEMI,12月30日cTnI显著升高且未注明非缺血原因，符合NSTEMI诊断标准,absent,一致
+CASE_0079,NSTEMI,外院明确诊断NSTEMI且病程在30天内，直接采信诊断标签,absent,一致
+CASE_0080,NSTEMI,1月内cTn升高且无非缺血原因，ECG无ST抬高，符合NSTEMI标准,absent,一致
+CASE_0081,NSTEMI,4天前确诊NSTEMI且肌钙蛋白升高，符合1个月内急性事件标准,absent,一致
+CASE_0082,UA,症状持续约30天（<60天），无ST抬高或肌钙蛋白升高证据，符合新发心绞痛,absent,一致
+CASE_0083,NSTEMI,1个月内肌钙蛋白显著升高且ECG无ST抬高，诊断明确为NSTEMI,absent,一致
+CASE_0084,NSTEMI,30天内肌钙蛋白升高（1.039ng/ml）且ECG无STEMI证据，符合NSTEMI诊断标准,present,Rationale 中提到肌钙蛋白升高且 ECG 无 STEMI 证据，符合 NSTEMI 诊断标准，与 Evidence 中的 troponin 和 ecg 数据一致。但 Evidence 中指出症状持续时间存在矛盾（10分钟/次 vs 持续1小时不缓解），这可能影响 NSTEMI 的诊断逻辑。此外，Evidence 中提到入院日与事件日相差 4 天，而 Rationale 中未提及病程时间，因此未发现时间计算矛盾。综上，存在诊断逻辑上的矛盾。
+CASE_0085,NSTEMI,发病1.25天前，cTn显著升高且ECG无ST抬高，符合NSTEMI诊断标准,absent,一致
+CASE_0086,NSTEMI,近1周症状伴hs-cTnI升高且无非缺血原因，符合NSTEMI标准,absent,一致
+CASE_0087,UA,夜间发作胸痛伴缓解方式异常，症状发生时间在入院当日（<60天），符合UA诊断标准。,absent,一致
+CASE_0088,STEMI,病程17天内，ECG显示下壁ST段抬高，肌钙蛋白升高，符合STEMI诊断标准。,absent,一致
+CASE_0089,STEMI,STEMI诊断基于II、III、aVF及V7-V9导联ST抬高（<30天），符合强制判定标准,present,Rationale中提到STEMI诊断基于ST抬高且病程小于30天，但特别指出'符合强制判定标准'。然而，Evidence中显示cTnI未升高（0.001ng/mL，远低于正常上限0.04ng/mL），这与STEMI的典型生物标志物变化不符。虽然ECG符合STEMI的强制判定标准，但Rationale未提及cTn未升高的情况，而Evidence中明确说明cTn未升高，因此两者在诊断依据的描述上存在不一致。
+CASE_0090,STEMI,24天前诊断急性下壁心肌梗死符合STEMI定位标准且在30天时间窗内,absent,一致
+CASE_0091,NSTEMI,当前症状事件发生在入院当天，hs-cTnI升高未注明非缺血原因，ECG无ST抬高，符合NSTEMI标准,absent,一致
+CASE_0092,NSTEMI,30天内肌钙蛋白升高（无非缺血原因）伴非定位性ECG改变，符合NSTEMI标准,absent,一致
+CASE_0093,STEMI,STEMI：10天前劳力性症状+4小时静息性胸痛，ECG下壁ST抬高，TN升高，急诊PCI证实RCA血栓,absent,一致
+CASE_0094,STEMI,当日ECG显示下壁/后壁/右室ST抬高，符合STEMI严格ECG标准且在30天时间窗内,absent,一致
+CASE_0095,STEMI,STEMI发生在入院前1天，符合两个相邻导联ST抬高且肌钙蛋白显著升高,absent,一致
+CASE_0096,STEMI,14天内诊断明确提及STEMI，符合30天时间窗且诊断标签优先级最高,absent,一致
+CASE_0097,STEMI,1周前急性下壁心梗诊断符合STEMI定位标准，时间窗16天<30天,absent,一致
+CASE_0098,STEMI,11天前确诊急性下后壁心梗，急诊PCI术后，符合STEMI时间窗及定位诊断,absent,一致
+CASE_0099,STEMI,STEMI时间窗内（<30天）出现V1-V4 ST段抬高+肌钙蛋白升高+急诊PCI,absent,一致
+CASE_0100,STEMI,广泛前壁ST段抬高型心梗发生在入院前7天（<30天），ECG符合STEMI标准,absent,一致
+CASE_0101,STEMI,STEMI诊断基于外院ECG（AVL及V1-V6 ST抬高）且发病在26天内,absent,一致
+CASE_0102,STEMI,症状发生于入院当日（<30天），ECG显示多导联ST抬高，肌钙蛋白升高，符合STEMI,absent,一致
+CASE_0103,STEMI,STEMI时间窗内，II/III/avF导联ST抬高且肌钙蛋白升高,absent,一致
+CASE_0104,NSTEMI,1周内两次肌钙蛋白显著升高且行PCI治疗，符合NSTEMI诊断标准,absent,一致
+CASE_0105,STEMI,18小时前急性下壁心梗诊断且行急诊PCI，符合STEMI强制判定条件,absent,一致
+CASE_0106,STEMI,外院明确诊断急性前壁心梗且病程7天，符合STEMI时间窗及定位标准,absent,一致
+CASE_0107,STEMI,STEMI时间窗内（16天），V1-V3导联ST抬高伴肌钙蛋白显著升高,absent,一致
+CASE_0108,STEMI,5天前急性下壁心梗诊断符合STEMI时间窗及定位标准,absent,一致
+CASE_0109,NSTEMI,30天内高敏肌钙蛋白升高(27.9)且无非缺血性原因，ECG示ST压低，符合NSTEMI标准,absent,一致
+CASE_0110,STEMI,发病5天内入院，ECG显示胸前导联ST段抬高，cTn持续升高且＞参考值，符合STEMI诊断标准。,absent,一致
+CASE_0111,STEMI,15天前确诊急性下壁/前侧壁/后壁心肌梗死，符合STEMI定位标准且在30天时间窗内,present,Rationale 中提到'15天前确诊急性下壁/前侧壁/后壁心肌梗死'，而 Evidence 中显示'急性事件日为2025-02-05'，入院日为2025-02-20，两者间隔15天，符合时间描述。但 Evidence 中提到'2025-01-14行冠脉介入治疗'，说明介入治疗发生在急性事件日（2025-02-05）之前，这在逻辑上矛盾，因为急性心肌梗死的介入治疗通常应在发病后尽快进行，不可能在急性事件发生前就进行治疗。
+CASE_0112,NSTEMI,10天前发生cTn升高且诊断为NSTEMI，ECG无ST抬高，符合NSTEMI规则,absent,一致
+CASE_0113,STEMI,入院当日突发下壁ST段抬高，肌钙蛋白升高，急诊PCI证实罪犯血管闭塞，符合STEMI标准,absent,一致
+CASE_0114,STEMI,STEMI病程在30天内，ECG显示V1-5导联ST抬高伴Q波，急诊PCI治疗,absent,一致
+CASE_0115,STEMI,STEMI时间窗内（7日）且II/III/avF导联ST段抬高，符合急性心梗特征。,absent,一致
+CASE_0116,CCS,症状模式稳定且病程>2个月，无急性心梗证据，无近期症状加重描述,absent,一致
+CASE_0117,CCS,症状持续5月余（>60天），无加重或新发特征，无心梗证据且未行血运重建,absent,一致
+CASE_0118,CCS,症状持续1年且4月前加重已超过60天时间窗，无近期心梗证据，符合CCS稳定型心绞痛,absent,一致
+CASE_0119,CCS,病程超2个月，无近期心梗证据且当前无症状，符合CCS,absent,一致
+CASE_0120,UA,症状加重1月内就诊，符合UA新发/加重时间窗，ECG及cTn信息缺失但默认正常,absent,一致
+CASE_0121,UA,症状新发于20天前（<60天），无STEMI/NSTEMI证据，符合UA,absent,一致
+CASE_0122,CCS,症状持续3个月且稳定，无急性心梗证据，病程>60天符合CCS,absent,一致
+CASE_0123,CCS,既往心梗史超过30天，当前症状持续半年（>60天），无近期肌钙蛋白升高或ST抬高证据,absent,一致
+CASE_0124,UA,症状新发<2月且与活动无关，无STEMI/NSTEMI证据，符合UA强制标准,absent,一致
+CASE_0125,CCS,症状稳定且病程＞2个月，无急性心梗证据，无肌钙蛋白升高记录,absent,一致
+CASE_0126,UA,症状新发<2个月且无急性心梗证据，符合UA时间窗和症状特征,absent,一致
+CASE_0127,UA,症状新发<60天且夜间静息发作，符合UA诊断标准,absent,一致
+CASE_0128,UA,外院11-25确诊UA且症状加重在2个月内，符合UA时间窗及加重标准,present,Rationale中提到'症状加重在2个月内'，但Evidence中显示外院诊断日（11-25）与入院日（12-09）之间仅相隔14天，不足2个月。因此，时间描述存在矛盾。
+CASE_0129,UA,30天内支架术后症状加重且静息发作，符合UA诊断标准,absent,一致
+CASE_0130,UA,新发胸闷<2月且无急性心梗证据，符合UA标准,absent,一致
+CASE_0131,UA,症状新发2周(<60天)且无NSTEMI/STEMI证据，按规则C.3强制判定UA,absent,一致
+CASE_0132,UA,1月余前胸闷复发（<60天），无急性心梗证据，符合UA新发标准,absent,一致
+CASE_0133,CCS,症状持续1年余且稳定，无近期心梗证据，病程>2个月，符合CCS标准,absent,一致
+CASE_0134,CCS,患者无缺血症状，冠脉狭窄发现于入院当月，符合CCS无症状稳定病变标准。,absent,一致
+CASE_0135,UA,新发心绞痛病程<2月，无肌钙蛋白升高及STEMI证据，符合UA标准,absent,一致
+CASE_0136,UA,近3月夜间发作性胸闷符合UA特征，症状时间窗<60天且无MI证据,present,Rationale 中提到'症状时间窗<60天'，但 Evidence 中显示'入院日 - 事件日 = 90天（近3月症状再发）'，这与'症状时间窗<60天'存在时间计算矛盾。
+CASE_0137,UA,新发活动相关性胸痛20天，无ST抬高及肌钙蛋白升高证据,absent,一致
+CASE_0138,UA,近30天内症状频率加重，ECG无ST抬高，无cTn升高证据，符合UA,absent,一致
+CASE_0139,UA,近2月新发心绞痛且与活动无明显相关，符合UA时间窗及特征标准,absent,一致
+CASE_0140,CCS,症状稳定且病程超2月，无急性心梗证据，符合CCS标准。,absent,一致
+CASE_0141,UA,症状新发6周（<60天），劳力性胸痛无静息发作，ECG和肌钙蛋白数据缺失但默认正常,absent,一致
+CASE_0142,CCS,症状持续1年且稳定，无近期加重或急性事件证据，符合CCS标准,absent,一致
+CASE_0143,CCS,稳定劳力性心绞痛4年，无近期加重/新发特征，病程>2个月且无急性心梗证据,present,Rationale 中提到“病程>2个月”，但 Evidence 中的症状描述显示“胸闷、气短4年”，即病程应为4年，与“病程>2个月”不符。此外，Evidence 中提到“1年前加重”，但 Rationale 中表示“无近期加重/新发特征”，这在时间描述上存在不一致。
+CASE_0144,CCS,症状持续3年且近1年稳定，无急性缺血证据，符合CCS,present,Rationale 中提到“近1年稳定”，但 Evidence 中的“症状”部分明确说明“近1年加重伴夜间发作”，这与“稳定”相矛盾。此外，Evidence 中提到“症状持续时间超过60天”，而 Rationale 中说“症状持续3年”，两者在时间描述上不一致。
+CASE_0145,CCS,病程>2个月且症状稳定，术后无症状再现，无近期缺血证据,absent,一致
+CASE_0146,UA,1月前胸痛复发（<60天），无STEMI证据，无cTn升高记录，符合UA时间窗及复发症状特征,absent,一致
+CASE_0147,UA,症状在60天内出现夜间频繁发作且与活动无关，符合UA绝对优先特征，无STEMI/NSTEMI证据,present,Rationale中提到'症状在60天内出现'，但Evidence中显示'自3年开始间断出现'，表明病程远超过60天，存在时间计算矛盾。此外，Rationale中提到'无STEMI/NSTEMI证据'，但Evidence中未提供ECG和肌钙蛋白的具体数据，无法确认是否确实无相关证据，存在数据不一致问题。
+CASE_0148,UA,症状新发于60天内，符合UA新发心绞痛标准，无STEMI/NSTEMI证据且未行血运重建,absent,一致
+CASE_0149,UA,症状持续33天且与活动无关，符合UA新发标准（<60天）,absent,一致
+CASE_0150,CCS,症状持续10年且近2月无加重证据，PCI未成功但无急性缺血证据，符合CCS,absent,一致
+CASE_0151,UA,症状新发2周（<60天），无肌钙蛋白升高及STEMI证据，符合UA新发标准,absent,一致
+CASE_0152,CCS,症状持续6年且无近期加重，无急性事件证据，符合CCS,absent,一致
+CASE_0153,CCS,症状持续9年且无近期加重记录，无心梗证据，符合CCS稳定型心绞痛,absent,一致
+CASE_0154,UA,症状新发30天（≤2个月）且与活动无关，符合UA标准,absent,一致
+CASE_0155,UA,症状持续60天且存在静息发作，符合UA时间窗和不稳定特征,absent,一致
+CASE_0156,UA,症状持续3月但近2天加重，冠脉CT显示LAD重度狭窄，肌钙蛋白未升高,absent,一致
+CASE_0157,CCS,症状稳定且持续>2个月，无急性心梗证据，无近期加重表现，符合CCS,absent,一致
+CASE_0158,CCS,病程仅1周且无缺血症状，符合CCS无症状标准,absent,一致
+CASE_0159,UA,症状在60天内复发且具有静息发作特征，无急性心梗证据，符合UA诊断标准,absent,一致
+CASE_0160,UA,症状在30天内复发，无STEMI/NSTEMI证据，符合UA新发/复发规则,present,Rationale 中提到“症状在30天内复发”，但 Evidence 中显示“入院日(2024-11-25) - 症状复发日(2024-10-25) = 31天（近似值）”，这与30天内复发的描述存在时间计算矛盾。
+CASE_0161,STEMI,STEMI诊断基于ECG相邻导联ST段抬高（II III aVF），症状发作时间窗在入院当日3小时内，符合30天内急性事件判定标准,absent,一致
+CASE_0162,UA,症状加重发生在入院前29天（<60天），无ST抬高证据，无肌钙蛋白异常记录,absent,一致
+CASE_0163,CCS,陈旧性心梗＞30天且当前无缺血症状，冠脉CT显示三支病变但无急性事件证据,absent,一致
+CASE_0164,UA,症状在入院前20天复发（<60天），体力活动诱发且硝酸甘油效果欠佳，符合UA时间窗及症状特征,absent,一致
+CASE_0165,UA,近半月（<60天）心绞痛复发，无STEMI/NSTEMI证据，符合UA标准。,absent,一致
+CASE_0166,UA,症状复发<60天且无急性心梗证据，符合UA规则3,present,Rationale 中提到“症状复发<60天”，但 Evidence 中显示“近10天再发”，说明症状复发时间确实小于60天，这部分一致。然而，Evidence 中提到“入院日 - 最近PCI = 92天”，即最近一次PCI手术发生在92天前，而UA规则3通常要求症状复发在PCI术后60天内。因此，症状复发时间与PCI术后时间的关系存在矛盾，不符合UA规则3的适用条件。
+CASE_0167,CCS,症状持续5年且性质稳定，无近期加重或急性事件证据，符合CCS标准,absent,一致
+CASE_0168,CCS,症状持续6个月且无不稳定特征，符合CCS时间窗和稳定性标准,absent,一致
+CASE_0169,UA,新发心绞痛症状持续1月（<60天），无STEMI/NSTEMI证据，符合UA诊断标准,absent,一致
+CASE_0170,UA,症状新发44天，无STEMI证据，无肌钙蛋白升高记录，符合UA新发标准,absent,一致
+CASE_0171,UA,症状加重发生于60天内且肌钙蛋白阴性，符合UA加重型，无STEMI证据,absent,一致
+CASE_0172,UA,症状持续1年且稳定，但存在休息时发作需优先判定UA,present,Rationale 中提到“症状持续1年且稳定”，但同时也指出“存在休息时发作需优先判定UA”，这与 Evidence 中“休息时偶有发作（病程1年）”的描述存在逻辑矛盾。稳定病程通常意味着症状在休息时较少或无发作，而休息时偶有发作可能提示不稳定型心绞痛（UA），与“症状模式稳定”的判断不一致。此外，Evidence 中提到“症状时间窗存在矛盾（静息发作与长期稳定性）”，也支持了这一逻辑冲突。
+CASE_0173,UA,症状复发时间<60天且无急性心梗证据，符合UA新发/复发标准,absent,一致
+CASE_0174,CCS,症状持续2年且近2个月未加重，冠脉病变证据明确但无急性缺血表现,absent,一致
+CASE_0175,UA,症状在60天内加重且无急性心梗证据，符合UA诊断标准,absent,一致
+CASE_0176,CCS,症状持续3个月（>60天）且稳定，无急性心梗证据，符合CCS,absent,一致
+CASE_0177,CCS,病程14年且近2年症状稳定，无近期急性事件证据，符合CCS,absent,一致
+CASE_0178,UA,症状近1周再发（<30天），3月前NSTEMI已过时间窗，支架再狭窄提示缺血持续存在,present,Rationale 中提到“3月前NSTEMI已过时间窗”，但 Evidence 中显示最近 NSTEMI 事件发生在 2024-09-04，入院日为 2024-12-04，两者相隔 91 天（约3个月），这与“已过时间窗”的表述存在矛盾，因为时间窗通常指30天以内。此外，Rationale 中提到“支架再狭窄提示缺血持续存在”，但 Evidence 中并未明确说明支架再狭窄的存在，仅提到 LAD 药物球囊扩张术，因此缺乏直接证据支持该推断。
+CASE_0179,CCS,症状持续>6个月且无急性事件证据，符合CCS标准,absent,一致
+CASE_0180,UA,新发活动后胸闷20天，CTA显示多支血管狭窄，无cTn升高或STEMI证据，符合UA,absent,一致
+CASE_0181,UA,症状在60天内加重且病程<2月，符合UA诊断标准,absent,一致
+CASE_0182,UA,症状1月前再发（<60天），冠脉CT缺血证据，无肌钙蛋白升高及ST抬高，符合UA,absent,一致
+CASE_0183,UA,症状复发＜2个月（1月前），冠脉CT显示支架以远狭窄，无肌钙蛋白升高或STEMI证据,absent,一致
+CASE_0184,CCS,病程>2个月，症状稳定无缺血证据，符合CCS,absent,一致
+CASE_0185,CCS,症状持续4年且近期未加重（＞60天），无cTn升高或ECG缺血证据，符合CCS,absent,一致
+CASE_0186,UA,症状持续1月余（<60天）且符合新发心绞痛特征，无STEMI/NSTEMI证据,absent,一致
+CASE_0187,CCS,症状持续2年且稳定，无近期肌钙蛋白升高或急性事件，符合CCS标准,present,Rationale 中提到“症状持续2年且稳定”，但 Evidence 中提到“2024-10心肌灌注显像提示下壁缺血”，且“入院日 - 2024-10 = 60天”，说明症状持续时间不足2年，存在时间计算矛盾。
+CASE_0188,CCS,症状持续3个月且无加重证据，外院确诊冠脉狭窄，符合CCS时间窗及稳定型特征,absent,一致
+CASE_0189,UA,症状新发30天内，符合劳力性心绞痛特征，无肌钙蛋白/ECG急性证据，按病程强制判定UA,absent,一致
+CASE_0190,UA,新发胸闷<2个月且无心梗证据，符合UA诊断标准,absent,一致
+CASE_0191,CCS,病程5年且症状稳定，无近期缺血证据，符合CCS标准,absent,一致
+CASE_0192,CCS,症状再发时间超过60天，无急性心梗证据，符合CCS时间窗和稳定症状特征,absent,一致
+CASE_0193,UA,新发心绞痛病程30天，无STEMI证据，无肌钙蛋白升高记录，符合UA时间窗,absent,一致
+CASE_0194,CCS,患者1月前发现LAD狭窄但无缺血症状，无cTn升高及STEMI证据，符合CCS无症状标准。,absent,一致
+CASE_0195,UA,症状发生在50天前（<60天），cTn升高未注明非缺血原因，符合UA标准。,absent,一致
+CASE_0196,CCS,急性心梗事件发生于60天前（超30天窗），当前无新发缺血证据，符合CCS标准,present,Rationale 中提到‘急性心梗事件发生于60天前（超30天窗）’，与 Evidence 中‘入院日(2024-12-05) - 事件日(2024-10-07)=60天’一致。但 Evidence 中提到‘急诊诊断NSTEMI与当前时间窗冲突’，说明存在时间窗与诊断标准的矛盾。此外，Rationale 中提到‘当前无新发缺血证据’，而 Evidence 中‘入院时症状描述缺失’，这可能导致对‘无新发缺血证据’的判断缺乏充分依据。因此，存在逻辑不一致。
+CASE_0197,CCS,44天前NSTEMI已过急性期（>30天），当前无症状且无新发缺血证据,absent,一致
+CASE_0198,CCS,病程>2个月且无近期缺血症状或cTn升高证据，符合CCS,absent,一致
+CASE_0199,CCS,患者1月前发现冠脉狭窄但无缺血症状，无急性心梗证据且无肌钙蛋白升高记录，符合CCS标准。,absent,一致
+CASE_0200,CCS,患者无缺血症状且无急性心肌损伤证据，符合CCS标准。,absent,一致
+CASE_0201,CCS,3月前急性心梗（已过30天时间窗），当前无缺血症状及cTn升高证据，符合CCS标准。,absent,一致
+CASE_0202,CCS,病程>2个月且无近期缺血症状或cTn升高，符合CCS定义,absent,一致
+CASE_0203,CCS,急性下壁心梗（STEMI）病史超过30天，当前无缺血症状且术后未复发，符合CCS降级规则。,absent,一致
+CASE_0204,CCS,病程>2个月且症状稳定，无近期急性事件证据，符合CCS,absent,一致
+CASE_0205,信息不足,症状非典型且无肌钙蛋白/STEMI证据，病程14天但不符合UA等价症状标准,absent,一致
+CASE_0206,UA,症状5年前稳定，近10日复发且在60天内，无STEMI/NSTEMI证据，符合UA,absent,一致
+CASE_0207,CCS,症状持续4月（>60天）且无近期加重，ECG未见ST抬高，无肌钙蛋白升高证据，符合CCS,absent,一致
+CASE_0208,UA,症状在60天内新发且符合等价症状推定，无心梗证据，无血运重建记录,present,Rationale 中提到'症状在60天内新发'，但 Evidence 中显示'入院日 - 症状起始日 = 32天'，这表明病程小于60天，与'新发'的表述一致。然而，Rationale 中提到'无心梗证据'，但 Evidence 中未提及肌钙蛋白（Tn）是否升高，也未明确排除心梗，存在证据缺失。此外，Rationale 中提到'无血运重建记录'，与 Evidence 中'未提及血运重建'一致。总体来看，'新发'与'病程小于60天'一致，但'无心梗证据'缺乏足够支持，存在逻辑不严谨。
+CASE_0209,UA,8年前NSTEMI已过30天时间窗，2周前劳累性胸闷再发符合UA<60天标准,absent,一致
+CASE_0210,CCS,症状发生于60天前且无缺血性表现，1个月内无心梗证据，符合CCS,absent,一致
+CASE_0211,CCS,患者无缺血症状（UA/MI排除），冠脉严重狭窄但病程<60天，根据无症状强制判定CCS,absent,一致
+CASE_0212,CCS,既往心梗（>30天）、三支病变且近期无症状、无cTn升高，符合CCS稳定期,present,Rationale 中提到“既往心梗（>30天）”，而 Evidence 中明确指出心梗证据距今 1年半（>30天），这一点一致。但 Rationale 中提到“无近期心绞痛症状”，Evidence 中也说明“无近期心绞痛症状”，这一点也一致。然而，Evidence 中提到“入院日 - 最近晕厥 = 30天”，而 Rationale 中并未提及晕厥事件，这可能导致对“近期无症状”的理解产生偏差。此外，Evidence 中“缺失近期cTn数据”与 Rationale 中“无cTn升高”表述不完全一致，因为前者强调数据缺失，而后者默认无升高，存在逻辑不严谨之处。
+CASE_0213,CCS,患者无缺血症状，冠脉造影显示狭窄但无急性事件证据，病程26天但无症状符合CCS,absent,一致
+CASE_0214,CCS,患者1个月内无缺血症状且无肌钙蛋白升高证据，符合CCS标准,absent,一致
+CASE_0215,CCS,患者无缺血症状且病程超2个月，符合CCS标准,absent,一致
+CASE_0216,CCS,STEMI事件发生于43天前（超30天窗），术后无症状，无近期缺血证据,absent,一致
+CASE_0217,CCS,症状持续2年且术后未再发，冠脉病变稳定，无近期心梗证据，符合CCS标准。,absent,一致
+CASE_0218,CCS,患者1年余前发现冠脉狭窄且始终无症状，符合CCS标准（症状稳定+病程>2个月）,absent,一致
+CASE_0219,CCS,患者无缺血症状且无肌钙蛋白升高证据，冠脉CT发现狭窄但超过60天稳定期,absent,一致
+CASE_0220,CCS,症状发生于80天前，已行血运重建且术后无症状，超过STEMI/NSTEMI时间窗，符合CCS,absent,一致
+CASE_0221,CCS,患者无缺血症状且冠脉狭窄发现于9天前（<2月），但无症状强制归类为CCS,absent,一致
+CASE_0222,UA,症状持续1年且超过60天，但活动及休息时均有发作符合UA的不稳定特征,absent,一致
+CASE_0223,CCS,病程6年且近2月无症状加重，无急性心梗证据，符合CCS,present,Rationale中提到'近2月无症状加重'，但Evidence中提到'近10天因发热就诊发现冠脉狭窄加重'，这表明近10天内存在冠脉狭窄加重的情况，与'近2月无症状加重'存在矛盾。此外，Rationale中提到'无急性心梗证据'，而Evidence中缺失肌钙蛋白结果和ECG结论，无法确认是否确实无急性心梗证据，这也可能影响判断的一致性。
+CASE_0224,NSTEMI,30天内肌钙蛋白升高且无非缺血原因，符合NSTEMI诊断标准,absent,一致
+CASE_0225,CCS,患者无缺血症状，冠脉CT发现LAD狭窄3天，符合CCS无症状标准,absent,一致
+CASE_0226,CCS,STEMI病史超30天(31天)，术后无症状且无新发缺血证据，符合CCS,absent,一致
+CASE_0227,CCS,症状持续4年且无加重/诱发因素变化，病程>2个月，符合CCS诊断标准,absent,一致
+CASE_0228,CCS,患者无缺血症状且未行血运重建，根据'无症状即CCS'规则判定。,absent,一致
+CASE_0229,CCS,患者无缺血症状且冠脉CT显示慢性狭窄，病程2周但症状缺失，符合CCS定义。,absent,一致
+CASE_0230,CCS,既往STEMI事件＞30天且当前无症状，符合CCS标准,absent,一致
+CASE_0231,NSTEMI,30天内肌钙蛋白显著升高（138.7ng/L）且ECG无ST抬高，符合NSTEMI诊断标准,absent,一致
+CASE_0232,NSTEMI,30天内急性非ST段抬高型心肌梗死诊断明确，伴肌钙蛋白升高且无非缺血原因说明,absent,一致
+CASE_0233,NSTEMI,1天前急诊诊断急性心肌梗死，肌钙蛋白显著升高，ECG无ST抬高，符合NSTEMI标准,absent,一致
+CASE_0234,UA,症状新发时间（30天）符合UA时间窗，无STEMI/NSTEMI证据，且症状具有诱发因素。,absent,一致
+CASE_0235,CCS,患者无缺血症状且冠脉病变发现于2月前，符合CCS分型标准,absent,一致
+CASE_0236,CCS,症状持续2年且无加重/新发表现，病程>2个月，符合CCS定义,absent,一致
+CASE_0237,UA,12天前新发静息性胸痛伴ST压低，符合UA时间窗及症状特征,absent,一致
+CASE_0238,UA,症状持续约6周（<60天）新发胸痛，ECG示ST压低但无抬高，NSTEMI病史已超30天，无近期cTn证据,absent,一致
+CASE_0239,STEMI,发病2小时内入院，ECG显示Ⅰ、aVL及V1-V6导联ST抬高，符合STEMI标准。,absent,一致
+CASE_0240,STEMI,症状发生于入院前5小时，ECG提示下壁ST段抬高，符合STEMI标准,absent,一致
+CASE_0241,UA,新发心绞痛症状持续2天（<60天），符合UA时间窗且无NSTEMI证据,absent,一致
+CASE_0242,UA,新发心绞痛（病程10天）且ECG无STEMI证据，符合UA标准,absent,一致
+CASE_0243,UA,症状初发6个月（>60天），但近2天加重符合UA加重标准,absent,一致
+CASE_0244,UA,症状加重4天<60天，冠脉造影显示严重狭窄，无STEMI证据且未行血运重建,absent,一致
+CASE_0245,UA,症状新发于60天内，无急性心梗证据，无血运重建史,absent,一致
+CASE_0246,STEMI,STEMI：1天内发作，V1-V3 ST抬高及cTnI显著升高,absent,一致
+CASE_0247,CCS,症状持续90余天且无加重证据，缺乏急性缺血证据，符合CCS时间窗,absent,一致
+CASE_0248,UA,新发活动后胸闷15天，无心梗证据，符合UA时间窗及新发症状标准,absent,一致
+CASE_0249,NSTEMI,1个月内确诊急性非ST段抬高型心肌梗死，肌钙蛋白升高且行急诊PCI,absent,一致
+CASE_0250,CCS,术后默认无症状，症状未持续至入院，无cTn升高及ECG缺血证据,absent,一致
+CASE_0251,UA,症状符合UA绝对特征（夜间发作），病程刚好60天，无心梗证据,absent,一致
+CASE_0252,STEMI,发病1天内，外院ECG明确前壁ST段抬高，符合STEMI标准,absent,一致
+CASE_0253,CCS,既往急性下壁心梗（距今95天）已超过30天时间窗，术后未描述缺血症状再现，无近期cTn升高证据。,absent,一致
+CASE_0254,UA,症状初发7天内且符合UA新发标准，无STEMI/NSTEMI证据，未行血运重建后症状推断,present,Rationale 中提到‘未行血运重建后症状推断’，但 Evidence 中明确指出‘急诊行冠脉介入手术（PCI）并植入支架’，这与 Rationale 的描述相矛盾。此外，Rationale 说‘无STEMI/NSTEMI证据’，但 Evidence 中未提及 ECG 是否明确排除了这些情况，存在信息缺失。
+CASE_0255,STEMI,症状发生当日即入院，ECG明确下壁ST抬高，符合STEMI标准,absent,一致
+CASE_0256,NSTEMI,外院'急性心肌梗死'诊断在30天内，无STEMI证据，按诊断标签直接判定NSTEMI,absent,一致
+CASE_0257,UA,症状新发于60天内，ECG无STEMI证据，未行血运重建且无cTn数据,absent,一致
+CASE_0258,UA,症状<2月且未行血运重建，按新发症状强制判定UA,present,Rationale 中提到'未行血运重建'，但 Evidence 中明确提到'PCI术后（具体时间未明）'，说明患者已经进行了血运重建，存在逻辑矛盾。
+CASE_0259,STEMI,3小时前急性胸痛发作，急诊诊断STEMI且行急诊PCI，符合1个月时间窗及诊断标签强制规则,absent,一致
+CASE_0260,UA,症状起病3月余，近1周加重（<60天），无急性心梗证据，符合UA时间窗,absent,一致
+CASE_0261,STEMI,ECG明确诊断急性前侧壁心肌梗死，符合STEMI定位标准且在30天时间窗内,present,Rationale中提到'ECG明确诊断急性前侧壁心肌梗死'且'在30天时间窗内'，但Evidence中显示'时间窗0天'，并且'入院日 - 事件日 = 0天'，这与'30天时间窗内'的描述不一致。此外，Rationale未提及肌钙蛋白数据，而Evidence中明确指出'未提供肌钙蛋白数据'，这在逻辑上是合理的，但时间窗的矛盾是主要问题。
+CASE_0262,CCS,患者4月前发现冠脉病变并植入支架，入院时无缺血症状且超过30天急性期，符合CCS标准,absent,一致
+CASE_0263,NSTEMI,肌钙蛋白显著升高且行PCI术，符合30天内NSTEMI诊断标准,absent,一致
+CASE_0264,CCS,症状加重发生于6个月前（>60天），无近期ST抬高或肌钙蛋白升高，符合CCS,absent,一致
+CASE_0265,CCS,病程7天且无活动性缺血症状，冠脉CTA显示狭窄但无症状证据，符合CCS,present,Rationale中提到'无活动性缺血症状'，但Evidence中显示'7天前劳累后出现胸闷伴呕吐'，这表明存在缺血相关症状，尽管已缓解。因此，症状描述与'无活动性缺血症状'的结论存在矛盾。
+CASE_0266,CCS,症状持续4个月（>60天）且无急性缺血证据，符合CCS标准,absent,一致
+CASE_0267,CCS,症状发生于3月前（>60天），无急性心梗证据，未行血运重建，符合CCS标准,absent,一致
+CASE_0268,CCS,病程>2个月且症状稳定，无STEMI/NSTEMI证据，符合CCS标准。,absent,一致
+CASE_0269,CCS,肌钙蛋白升高（52天前）超过STEMI/NSTEMI时间窗，症状持续超过2个月且未满足UA标准,present,Rationale 中提到肌钙蛋白升高超过STEMI/NSTEMI时间窗（通常为30天），但 Evidence 中显示肌钙蛋白升高时间为52天前，这与STEMI/NSTEMI的时间窗不符。此外，Rationale 说症状持续超过2个月，Evidence 中也提到症状持续超过2个月，这部分一致。然而，Rationale 说未满足UA标准，但未提供明确证据支持此结论，存在逻辑不充分的问题。
+CASE_0270,UA,症状新发且持续2月（≤60天），ECG示ST改变但无抬高，无cTn升高证据，符合UA,absent,一致
+CASE_0271,UA,症状新发且病程≤2个月，ECG示非ST抬高性缺血，无肌钙蛋白升高证据,absent,一致
+CASE_0272,CCS,症状持续3个月且稳定，无急性心梗证据，符合CCS标准,absent,一致
+CASE_0273,STEMI,发病5小时（<30天）内出现Ⅱ、Ⅲ、aVF导联ST段抬高，符合STEMI诊断标准。,absent,一致
+CASE_0274,STEMI,STEMI诊断明确且发生在入院当日，符合30天时间窗和ECG标准,absent,一致
+CASE_0275,UA,症状新发于2周前（<60天），无STEMI/NSTEMI证据，符合UA诊断标准。,absent,一致
+CASE_0276,NSTEMI,急性胸痛发作伴肌钙蛋白升高(0.76ng/ml)及LAD急性闭塞，ECG无ST抬高，符合NSTEMI诊断标准。,absent,一致
+CASE_0277,UA,症状初发在60天内且近期加重，符合UA新发及恶化标准,absent,一致
+CASE_0278,UA,症状持续60天且与活动无关，符合UA时间窗和特征标准,absent,一致
+CASE_0279,NSTEMI,入院前1天急性发作，诊断文本明确提及'急性非ST段抬高型心肌梗死',absent,一致
+CASE_0280,UA,症状加重发生在60天内且具不稳定特征（夜间发作），符合UA诊断标准,absent,一致
+CASE_0281,CCS,症状稳定且病程超过2个月，无急性心梗证据，符合CCS标准,absent,一致
+CASE_0282,CCS,病程约30-60天，PCI术后无症状，无急性缺血证据，符合CCS标准,absent,一致
+CASE_0283,NSTEMI,30天内肌钙蛋白升高且ECG非STEMI型改变，符合NSTEMI诊断标准,present,Rationale 中提到'30天内肌钙蛋白升高'，而 Evidence 中肌钙蛋白升高的日期为 2025-10-14，与入院日期 2025-11-14 相差正好 30 天，未明确是否在 30 天内。此外，Evidence 中提到'1月前'发病，但未明确'1月前'是否在 30 天范围内，存在时间窗推断的不确定性。同时，ECG 描述为'ST段轻微抬高（未明确两个相邻导联抬高或具体定位）'，与 Rationale 中'ECG非STEMI型改变'的表述存在不一致，因为 ST 段抬高可能不符合非STEMI的定义。
+CASE_0284,UA,症状新发15天且未行血运重建，符合UA时间窗,absent,一致
+CASE_0285,UA,症状新发且未行血运重建前已存在持续缺血表现，符合UA时间窗（<60天）,absent,一致
+CASE_0286,STEMI,发病0天内突发持续胸痛伴溶栓治疗，符合STEMI时间窗及隐含ECG证据,absent,一致
+CASE_0287,UA,症状新发于入院前2天，急诊行PCI治疗，符合UA时间窗且无NSTEMI/STEMI确诊证据,absent,一致
+CASE_0288,STEMI,STEMI诊断明确：30天内发病，ECG显示V1-4 ST↑且诊断文本含前壁心梗,absent,一致
+CASE_0289,NSTEMI,0天内急性心梗诊断，无ST抬高描述，按NSTEMI判定,absent,一致
+CASE_0290,UA,症状加重1月（<60天），CAD-RADS 4A高危斑块，无心梗证据，符合UA,absent,一致
+CASE_0291,信息不足,11天内确诊冠脉狭窄但无心绞痛症状、无心梗证据、无cTn/ECG数据,absent,一致
+CASE_0292,STEMI,入院当天发生胸痛伴下壁ST段抬高，符合STEMI时间窗及ECG标准,absent,一致
+CASE_0293,CCS,患者无心绞痛症状且病程超过2个月，符合CCS分型标准,absent,一致
+CASE_0294,UA,症状新发于30天内且病程<60天，ECG无ST抬高，肌钙蛋白未升高，符合UA标准,absent,一致
+CASE_0295,UA,症状新发4天，ST压低但无抬高，无cTn升高证据，符合UA规则,absent,一致
+CASE_0296,UA,症状持续60天且为新发，符合UA时间窗，无STEMI/NSTEMI证据,absent,一致
+CASE_0297,UA,症状复发<2个月且存在缺血性ST-T改变，肌钙蛋白未升高，符合UA诊断标准,absent,一致
+CASE_0298,UA,新发胸闷症状1天（<60天），无STEMI证据，无NSTEMI检验数据，符合UA新发标准,absent,一致
+CASE_0299,UA,症状持续1月（<60天）且PCI术后症状再现，无STEMI证据，无肌钙蛋白升高记录，符合UA标准,present,Rationale中提到'症状持续1月（<60天）'，但Evidence中显示'入院日(2025-11-02) - 首次症状出现日(2025-10-02)=30天'，即症状持续正好30天，而非'小于60天'的表述。此外，Rationale中提到'无STEMI证据'，但Evidence中提到'符合STEMI时间窗'，这在逻辑上存在矛盾。
+CASE_0300,UA,症状新发<2月且与活动无关，无STEMI/NSTEMI证据，符合UA标准,absent,一致
+CASE_0301,UA,症状在60天内复发（2天前），无STEMI证据，无肌钙蛋白升高记录，符合UA标准。,absent,一致
+CASE_0302,CCS,症状持续1年且无急性缺血证据，符合CCS,absent,一致
+CASE_0303,CCS,患者1月前干预冠脉病变且无缺血症状，时间窗内未见cTn升高或ECG异常，符合CCS条件。,present,Rationale 中提到患者1月前接受了冠脉干预且无缺血症状，但 Evidence 中指出‘症状描述与‘1月前干预’存在时间逻辑矛盾（无症状却接受血运重建）’，这表明在时间逻辑上存在矛盾。此外，Rationale 中提到‘时间窗内未见cTn升高或ECG异常’，但 Evidence 中并未提供具体的cTn或ECG检测结果，因此无法验证其真实性。
+CASE_0304,UA,症状新发时间窗明确在60天内，无STEMI/NSTEMI证据，符合UA诊断标准,absent,一致
+CASE_0305,UA,症状新发20天且与活动无关，时间窗<60天，符合UA标准,absent,一致
+CASE_0306,NSTEMI,1天前急性胸痛发作伴肌钙蛋白升高(0.16>0.04)，当地诊断'急性心肌梗死'，无ST抬高证据，符合NSTEMI标准,absent,一致
+CASE_0307,UA,新发胸闷症状3天（<2个月），无心梗证据且无肌钙蛋白升高记录，符合UA标准,absent,一致
+CASE_0308,UA,症状加重时间在60天内且无急性心梗证据，符合UA诊断标准,absent,一致
+CASE_0309,CCS,症状持续5年(>60天)且无近期加重证据，符合CCS稳定型心绞痛标准,present,Rationale 中提到符合 CCS 稳定型心绞痛标准，但 Evidence 明确指出'无胸痛/胸闷/心悸等典型心绞痛症状'，这与 CCS 稳定型心绞痛的诊断标准不符。CCS 标准要求有典型心绞痛症状，因此存在诊断逻辑冲突。
+CASE_0310,CCS,症状持续超60天且无急性心梗证据，入院时间缺失影响精确判断,absent,一致
+CASE_0311,UA,近20天活动诱发症状加重（<60天），无STEMI/NSTEMI证据，符合UA时间窗,absent,一致
+CASE_0312,NSTEMI,肌钙蛋白显著升高（29.84ng/mL）且症状发生＜30天，无非缺血原因说明，符合NSTEMI标准,absent,一致
+CASE_0313,UA,症状新发3天，符合UA时间窗且无急性心梗证据,absent,一致
+CASE_0314,UA,症状持续20天，符合新发缺血症状（气短），无STEMI/NSTEMI证据，按UA判定,absent,一致
+CASE_0315,UA,症状发生3日内且与活动无关，ECG未见ST抬高，无肌钙蛋白数据,absent,一致
+CASE_0316,CCS,无胸痛/胸闷等缺血症状，无心梗证据，症状持续<2月但非心源性,absent,一致
+CASE_0317,CCS,患者2年前支架术后无心绞痛症状，近期检查示稳定狭窄，无急性缺血证据,absent,一致
+CASE_0318,CCS,无缺血症状+ECG无ST抬高+无肌钙蛋白证据，按无症状性病变归类CCS,present,Rationale 中提到 'ECG无ST抬高'，与 Evidence 中 '无ST段抬高' 一致；但 Evidence 中提到 'ST-T改变；V3-V6导联异常Q波'，这可能提示存在心肌损伤或既往心肌梗死，与 '无肌钙蛋白证据' 的描述不完全一致。此外，Evidence 中提到 '症状描述矛盾（既往10天创伤史与急性心梗疑似并存）'，说明症状描述存在潜在冲突，可能影响无症状性病变的判断。因此，存在逻辑矛盾。
+CASE_0319,UA,症状加重发生在近15天内（<60天），符合UA的时间窗，门诊已诊断不稳定型心绞痛。,absent,一致
+CASE_0320,UA,症状新发于10天前（<60天），无STEMI证据且无cTn升高，符合UA标准,absent,一致
+CASE_0321,UA,症状在3天内再发（<60天），无ST抬高或肌钙升高证据，符合UA标准,absent,一致
+CASE_0322,UA,新发劳力性心绞痛（1月前始），病程<60天且无急性心梗证据,absent,一致
+CASE_0323,UA,症状新发3天（<60天），ECG无ST抬高，未提及肌钙蛋白升高,absent,一致
+CASE_0324,UA,症状新发3天，ECG无ST抬高，无cTn升高证据，符合UA时间窗,absent,一致
+CASE_0325,CCS,症状持续1年且稳定（>60天），无急性心梗证据，无近期血运重建,absent,一致
+CASE_0326,CCS,病程>2个月且症状稳定，无STEMI/NSTEMI证据，符合CCS标准,absent,一致
+CASE_0327,UA,症状加重31天，符合UA的<60天加重标准，无STEMI/NSTEMI证据,absent,一致
+CASE_0328,UA,症状新发且病程在2个月内，ECG未提示ST抬高，无肌钙蛋白升高证据,absent,一致
+CASE_0329,UA,近1月症状再发且与活动无关，符合UA强制特征,absent,一致
+CASE_0330,CCS,既往35天前急性心梗史（已行支架术），当前无缺血症状及证据，符合CCS降级标准,absent,一致
+CASE_0331,NSTEMI,入院当日发生急性胸痛伴肌钙蛋白升高，诊断明确为'急性非ST段抬高性心肌梗死'，符合NSTEMI标准。,absent,一致
+CASE_0332,STEMI,STEMI规则A.2条件1触发：ECG II/III/AVF导联ST段抬高，发病时间在入院30天内,absent,一致
+CASE_0333,STEMI,症状发作19小时即入院，ECG明确ST段抬高，肌钙蛋白显著升高且未注明非缺血原因，符合STEMI诊断标准,absent,一致
+CASE_0334,STEMI,1天内急性胸痛伴肌钙蛋白升高（5.1ng/ml）及ST段抬高，外院已确诊STEMI,absent,一致
+CASE_0335,UA,症状新发1天（<60天），ECG无STEMI证据，无肌钙蛋白升高记录，符合UA诊断标准,absent,一致
+CASE_0336,UA,症状新发<60天且无血运重建术后症状缓解描述，符合UA时间窗,absent,一致
+CASE_0337,UA,症状在4月前新发且10天前复发（<60天），符合UA标准,absent,一致
+CASE_0338,UA,症状复发于2周前（<60天），静息发作特征符合UA诊断标准,absent,一致
+CASE_0339,UA,症状新发于30天内，无ST段抬高证据，肌钙蛋白未提及升高，符合UA标准。,absent,一致
+CASE_0340,UA,症状与活动无关且门诊诊断为UA，符合UA绝对优先特征，无视病程超过60天,absent,一致
+CASE_0341,UA,症状与活动无关符合UA绝对特征，病程3年但需优先满足UA诊断条件,present,Rationale 中提到“病程3年余”，但同时又说“需优先满足UA诊断条件”，而根据规则C.2条件3，UA通常需要症状在48小时内出现或新发症状。Evidence 中也指出“症状时间窗与稳定性存在矛盾描述”，表明病程长（3年余）与UA的诊断标准不一致，存在逻辑矛盾。
+CASE_0342,CCS,病程超60天且症状稳定，ECG无STEMI证据，无cTn升高记录，符合CCS标准。,absent,一致
+CASE_0343,NSTEMI,近7天内诊断急性非ST段抬高型心肌梗死，肌钙蛋白阳性，符合NSTEMI标准,absent,一致
+CASE_0344,UA,症状在60天内新发（术后4年无症状，近1月复发），无STEMI/NSTEMI证据，符合UA,absent,一致
+CASE_0345,CCS,症状持续时间>2个月且无急性心梗证据，符合CCS稳定型心绞痛特征。,absent,一致
+CASE_0346,CCS,症状持续2年且加重事件>60天，无ST抬高或肌钙蛋白升高证据，符合CCS标准。,present,Rationale中提到'加重事件>60天'，但Evidence中明确指出'症状持续时间未超60天'，两者在加重事件的时间描述上存在矛盾。此外，Evidence提到'加重事件=90天'，进一步与'未超60天'的描述冲突。
+CASE_0347,UA,症状加重发生于7天前（<60天），符合UA诊断标准，无NSTEMI/STEMI证据,absent,一致
+CASE_0348,STEMI,入院当日ECG显示III/AVF ST抬高，cTnI升高，急诊PCI证实急性右冠闭塞，符合STEMI诊断标准,absent,一致
+CASE_0349,CCS,患者无缺血症状且冠脉狭窄发现仅10天，符合CCS无症状强制诊断规则,absent,一致
+CASE_0350,CCS,病程>1年且术后无症状，血运重建>1年，符合CCS,absent,一致
+CASE_0351,NSTEMI,30天内肌钙蛋白显著升高且ECG无ST抬高，符合NSTEMI标准,absent,一致
+CASE_0352,CCS,3月前肌钙蛋白升高事件超30天未达NSTEMI标准，当前症状稳定且无急性缺血证据，病程>2个月,present,Rationale 中提到 '3月前肌钙蛋白升高事件超30天未达NSTEMI标准'，但 Evidence 中显示 '3月前肌钙蛋白I 0.531ug/L（升高，未注明非缺血性原因）'，且 '3月前事件距入院90天'。这表明3月前的肌钙蛋白升高确实发生在30天前以上，但并未明确说明该事件是否被排除为NSTEMI，与 Rationale 中的 '未达NSTEMI标准' 说法存在矛盾。此外，Evidence 中提到 '1天前打球时症状复发'，但 Rationale 中说 '当前症状稳定且无急性缺血证据'，两者在症状状态上不一致。
+CASE_0353,UA,症状新发15天（<60天），无STEMI/NSTEMI证据，符合UA新发标准,absent,一致
+CASE_0354,NSTEMI,10月23日发病，肌钙蛋白持续升高且明确诊断为NSTEMI，符合30天内事件,absent,一致
+CASE_0355,NSTEMI,19天前胸闷发作，当前肌钙蛋白升高(0.240ng/mL)且ECG无ST抬高，符合NSTEMI诊断标准,absent,一致
+CASE_0356,NSTEMI,30天内hs-cTnT/I明确升高且ECG无ST段抬高，符合NSTEMI诊断标准,absent,一致
+CASE_0357,NSTEMI,肌钙蛋白升高（0.042↑）且运动平板阳性，症状在4天内，符合NSTEMI标准,absent,一致
+CASE_0358,NSTEMI,2天内hs-cTnT升高且II/III/aVF病理性Q波，符合NSTEMI诊断标准,absent,一致
+CASE_0359,CCS,病程超60天且术后症状稳定，无近期心梗证据及cTn升高，符合CCS稳定型心绞痛标准,absent,一致
+CASE_0360,UA,新发劳力性症状1月（≤2个月），无心梗证据，符合UA强制诊断条件,absent,一致
+CASE_0361,CCS,病程>60天，近1周胸闷无等价症状特征，无cTn/ECG证据，术后默认无症状,absent,一致
+CASE_0362,UA,症状新发于21天前（<60天），ECG无ST抬高，无cTn升高证据，符合UA,absent,一致
+CASE_0363,NSTEMI,30天内肌钙蛋白显著升高且ECG非STEMI，急诊已确诊NSTEMI,absent,一致
+CASE_0364,NSTEMI,8天前确诊急性非ST段抬高型心梗，肌钙蛋白持续升高且无非缺血证据,absent,一致
+CASE_0365,NSTEMI,30天内肌钙蛋白升高（0.098ng/mL↑）且ECG无ST抬高，符合NSTEMI标准,absent,一致
+CASE_0366,CCS,既往STEMI已超过30天时间窗，目前无缺血症状且病程>2个月,present,Rationale中提到'病程>2个月'，但Evidence中显示'入院日(A)=2025-10-20 - 急性事件日(B)=2024-07-15 = 462天'，即病程为约15个月，与'病程>2个月'相比虽然时间更长，但表述不一致，容易引起误解。此外，'既往STEMI已超过30天时间窗'与'急性事件日(B)=2024-07-15'之间的间隔为462天，确实超过30天，这部分一致。但'目前无缺血症状'与Evidence中'现无胸闷痛，夜间可平卧，无下肢浮肿'一致，因此主要矛盾点在于'病程>2个月'与实际病程时间的表述不一致。
+CASE_0367,STEMI,STEMI时间窗（<30天）内，ECG显示I/aVL/V1-V5 ST抬高，符合前壁心梗,absent,一致
+CASE_0368,CCS,症状发生于91天前且术后默认无症状，ECG未明确ST抬高，cTn未升高，符合CCS稳定病程,present,Rationale 中提到“症状发生于91天前”，而 Evidence 中的“夜间症状发作”时间为约2025-09-01，与入院日2025-12-01间隔91天，时间计算一致。但 Rationale 中提到“术后默认无症状”，Evidence 显示患者在支架术后（2025-10-24）与入院日（2025-12-01）之间间隔38天，Evidence 中未明确说明术后38天内是否有症状再现，因此“术后默认无症状”的推断缺乏明确证据支持，存在逻辑矛盾。此外，Evidence 中提到“前壁导联可疑ST段抬高”，与 Rationale 中“ECG未明确ST抬高”不完全一致，存在描述模糊与逻辑冲突。
+CASE_0369,CCS,症状持续6个月（>60天）且稳定，无急性心梗证据，符合CCS标准。,absent,一致
+CASE_0370,UA,症状持续61天，符合UA新发标准（<60天），无STEMI/NSTEMI证据，未满足CCS稳定病程要求,present,Rationale 中提到'症状持续61天，符合UA新发标准（<60天）'，但 Evidence 明确指出'入院日(2025-10-19) - 症状开始日(2025-08-19) = 61天'，这与 UA 新发标准（<60天）相矛盾。
+CASE_0371,CCS,3月前STEMI已超过30天时间窗，目前无新发缺血症状及cTn升高，符合CCS,absent,一致
+CASE_0372,CCS,最后一次急性事件（2024-10-9）超过30天且目前无症状，符合CCS稳定期标准,absent,一致
+CASE_0373,信息不足,患者无缺血症状且无客观证据支持急性事件或冠状动脉病变,absent,一致
+CASE_0374,UA,40天前STEMI已过急性期，活动后症状持续41天且未达CCS稳定标准,present,Rationale 中提到“活动后症状持续41天”，但 Evidence 中明确说明“活动后胸闷、气促持续40天”，两者在症状持续时间上存在一天的矛盾。此外，Rationale 中提到“已过急性期”，Evidence 中的入院与事件时间差为41天，符合急性期已过的判断，此部分一致。但“未达CCS稳定标准”在 Evidence 中缺乏具体依据支持，因此存在逻辑不一致。
+CASE_0375,UA,症状复发≤60天且无cTn升高证据，符合UA时间窗和症状特征,absent,一致
+CASE_0376,UA,症状2天前复发，病程<60天，无STEMI/NSTEMI证据，符合UA标准,absent,一致
+CASE_0377,UA,症状<2月且与活动无关，无STEMI/NSTEMI证据，符合UA标准,absent,一致
+CASE_0378,NSTEMI,肌钙蛋白I 0.041ng/ml（>参考上限）在入院前1天检测，符合NSTEMI诊断标准,absent,一致
+CASE_0379,UA,症状新发<60天且与活动无关，ECG无ST抬高证据，未行血运重建,present,Rationale 中提到'症状新发<60天'，但 Evidence 中显示'入院日(2025-10-7) - 事件日(2025-8-1) ≈ 67天'，即症状持续时间超过60天，存在时间计算矛盾。
+CASE_0380,NSTEMI,1天内急性胸痛伴肌钙蛋白显著升高（3.22ng/ml）且ECG无ST抬高，符合NSTEMI,absent,一致
+CASE_0381,CCS,症状持续超过2个月且稳定，无近期心梗证据，无cTn升高记录,absent,一致
+CASE_0382,CCS,患者1周内无缺血症状且无肌钙蛋白升高或ECG急性改变，符合CCS无症状特征。,absent,一致
+CASE_0383,UA,新发心绞痛症状15天，ECG及肌钙蛋白正常，无血运重建史，符合UA标准。,absent,一致
+CASE_0384,UA,1周内新发与活动无关的心绞痛，符合UA诊断标准,absent,一致
+CASE_0385,UA,症状新发<60天且无急性心梗证据，按UA诊断标准分型,absent,一致
+CASE_0386,UA,症状新发于1月前（<2个月），与活动无明显相关性，符合UA标准,absent,一致
+CASE_0387,NSTEMI,入院当日肌钙蛋白显著升高（0.189ng/mL↑）且诊断为急性非ST段抬高型心梗，符合NSTEMI标准,absent,一致
+CASE_0388,NSTEMI,1周内新发加重症状，肌钙蛋白升高且明确诊断为NSTEMI,absent,一致
+CASE_0389,UA,症状在休息时发作且持续时间超过60天，但静息发作特征绝对优先诊断为UA。,absent,一致
+CASE_0390,UA,症状复发于2周前（<60天），无心梗证据且无近期血运重建，符合UA标准。,absent,一致
+CASE_0391,STEMI,STEMI判定优先级最高，II/III/aVF导联ST抬高且症状发生3天前（<30天）,absent,一致
+CASE_0392,NSTEMI,44天前诊断'急性非ST段抬高型心肌梗死'，符合NSTEMI诊断标准,absent,一致
+CASE_0393,STEMI,30天内下后壁ST段抬高型心梗，急诊介入治疗，符合STEMI诊断标准,absent,一致
+CASE_0394,CCS,症状首发超过60天且呈稳定劳力性特征，无急性心梗证据,absent,一致
+CASE_0395,NSTEMI,1周内确诊急性非ST段抬高型心肌梗死，肌钙蛋白显著升高且无非缺血原因,absent,一致
+CASE_0396,UA,症状新发<2月伴静息痛，冠脉造影显示严重狭窄，无心梗证据,absent,一致
+CASE_0397,CCS,无症状且冠脉病变发现于2月余前，PCI术后默认无症状，符合CCS标准,absent,一致
+CASE_0398,NSTEMI,病程5小时<30天，肌钙蛋白升高且ECG无ST抬高，符合NSTEMI标准,present,Rationale 中提到‘病程5小时<30天’，但 Evidence 中显示‘入院日期 - 急性事件日期 = 0天’，这与‘病程5小时’的描述存在时间计算矛盾。此外，Rationale 中提到‘ECG无ST抬高’，而 Evidence 中的‘inference’部分却提到‘采信‘急性ST段抬高型心肌梗死’诊断标签’，这与ECG实际结果矛盾，存在诊断逻辑冲突。
+CASE_0399,NSTEMI,10天前确诊NSTEMI且在30天内，直接采信诊断标签,absent,一致
+CASE_0400,CCS,无缺血症状且无急性事件证据，病程未提示冠心病活动性病变,absent,一致
+CASE_0401,CCS,症状持续61天且无ST抬高/肌钙蛋白升高证据，符合CCS时间窗,absent,一致
+CASE_0402,NSTEMI,1天内急性胸痛伴cTn显著升高，ECG示III/aVR抬高但非相邻导联，符合NSTEMI,absent,一致
+CASE_0403,UA,近30天内出现活动无关性胸闷，符合UA绝对标准，无STEMI/NSTEMI证据,absent,一致
+CASE_0404,CCS,慢性心衰病程6年，无急性缺血证据，符合CCS标准,absent,一致
+CASE_0405,UA,症状再发<60天且术后残留症状，符合UA新发/复发规则,absent,一致

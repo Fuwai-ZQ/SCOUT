@@ -1,0 +1,148 @@
+icd_code,icd_version,long_title
+41000  ,9,"Acute myocardial infarction of anterolateral wall, episode of care unspecified"
+41001  ,9,"Acute myocardial infarction of anterolateral wall, initial episode of care"
+41002  ,9,"Acute myocardial infarction of anterolateral wall, subsequent episode of care"
+41010  ,9,"Acute myocardial infarction of other anterior wall, episode of care unspecified"
+41011  ,9,"Acute myocardial infarction of other anterior wall, initial episode of care"
+41012  ,9,"Acute myocardial infarction of other anterior wall, subsequent episode of care"
+41020  ,9,"Acute myocardial infarction of inferolateral wall, episode of care unspecified"
+41021  ,9,"Acute myocardial infarction of inferolateral wall, initial episode of care"
+41022  ,9,"Acute myocardial infarction of inferolateral wall, subsequent episode of care"
+41030  ,9,"Acute myocardial infarction of inferoposterior wall, episode of care unspecified"
+41031  ,9,"Acute myocardial infarction of inferoposterior wall, initial episode of care"
+41032  ,9,"Acute myocardial infarction of inferoposterior wall, subsequent episode of care"
+41040  ,9,"Acute myocardial infarction of other inferior wall, episode of care unspecified"
+41041  ,9,"Acute myocardial infarction of other inferior wall, initial episode of care"
+41042  ,9,"Acute myocardial infarction of other inferior wall, subsequent episode of care"
+41050  ,9,"Acute myocardial infarction of other lateral wall, episode of care unspecified"
+41051  ,9,"Acute myocardial infarction of other lateral wall, initial episode of care"
+41052  ,9,"Acute myocardial infarction of other lateral wall, subsequent episode of care"
+41080  ,9,"Acute myocardial infarction of other specified sites, episode of care unspecified"
+41081  ,9,"Acute myocardial infarction of other specified sites, initial episode of care"
+41082  ,9,"Acute myocardial infarction of other specified sites, subsequent episode of care"
+41090  ,9,"Acute myocardial infarction of unspecified site, episode of care unspecified"
+41091  ,9,"Acute myocardial infarction of unspecified site, initial episode of care"
+41092  ,9,"Acute myocardial infarction of unspecified site, subsequent episode of care"
+4110   ,9,Postmyocardial infarction syndrome
+4111   ,9,Intermediate coronary syndrome
+41181  ,9,Acute coronary occlusion without myocardial infarction
+41189  ,9,"Other acute and subacute forms of ischemic heart disease, other"
+412    ,9,Old myocardial infarction
+4130   ,9,Angina decubitus
+4131   ,9,Prinzmetal angina
+4139   ,9,Other and unspecified angina pectoris
+41400  ,9,"Coronary atherosclerosis of unspecified type of vessel, native or graft"
+41401  ,9,Coronary atherosclerosis of native coronary artery
+41402  ,9,Coronary atherosclerosis of autologous vein bypass graft
+41403  ,9,Coronary atherosclerosis of nonautologous biological bypass graft
+41404  ,9,Coronary atherosclerosis of artery bypass graft
+41405  ,9,Coronary atherosclerosis of unspecified bypass graft
+41406  ,9,Coronary atherosclerosis of native coronary artery of transplanted heart
+41407  ,9,Coronary atherosclerosis of bypass graft (artery) (vein) of transplanted heart
+41411  ,9,Aneurysm of coronary vessels
+41412  ,9,Dissection of coronary artery
+4142   ,9,Chronic total occlusion of coronary artery
+4143   ,9,Coronary atherosclerosis due to lipid rich plaque
+4144   ,9,Coronary atherosclerosis due to calcified coronary lesion
+4148   ,9,Other specified forms of chronic ischemic heart disease
+4149   ,9,"Chronic ischemic heart disease, unspecified"
+I20    ,10,Angina pectoris
+I200   ,10,Unstable angina
+I201   ,10,Angina pectoris with documented spasm
+I202   ,10,Refractory angina pectoris
+I208   ,10,Other forms of angina pectoris
+I209   ,10,"Angina pectoris, unspecified"
+I21    ,10,Acute myocardial infarction
+I210   ,10,ST elevation (STEMI) myocardial infarction of anterior wall
+I2101  ,10,ST elevation (STEMI) myocardial infarction involving left main coronary artery
+I2102  ,10,ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery
+I2109  ,10,ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall
+I211   ,10,ST elevation (STEMI) myocardial infarction of inferior wall
+I2111  ,10,ST elevation (STEMI) myocardial infarction involving right coronary artery
+I2119  ,10,ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall
+I212   ,10,ST elevation (STEMI) myocardial infarction of other sites
+I2121  ,10,ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery
+I2129  ,10,ST elevation (STEMI) myocardial infarction involving other sites
+I213   ,10,ST elevation (STEMI) myocardial infarction of unspecified site
+I214   ,10,Non-ST elevation (NSTEMI) myocardial infarction
+I219   ,10,"Acute myocardial infarction, unspecified"
+I21A   ,10,Other type of myocardial infarction
+I21A1  ,10,Myocardial infarction type 2
+I21A9  ,10,Other myocardial infarction type
+I22    ,10,Subsequent ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction
+I220   ,10,Subsequent ST elevation (STEMI) myocardial infarction of anterior wall
+I221   ,10,Subsequent ST elevation (STEMI) myocardial infarction of inferior wall
+I222   ,10,Subsequent non-ST elevation (NSTEMI) myocardial infarction
+I228   ,10,Subsequent ST elevation (STEMI) myocardial infarction of other sites
+I229   ,10,Subsequent ST elevation (STEMI) myocardial infarction of unspecified site
+I237   ,10,Postinfarction angina
+I24    ,10,Other acute ischemic heart diseases
+I240   ,10,Acute coronary thrombosis not resulting in myocardial infarction
+I248   ,10,Other forms of acute ischemic heart disease
+I249   ,10,"Acute ischemic heart disease, unspecified"
+I25    ,10,Chronic ischemic heart disease
+I251   ,10,Atherosclerotic heart disease of native coronary artery
+I2510  ,10,Atherosclerotic heart disease of native coronary artery without angina pectoris
+I2511  ,10,Atherosclerotic heart disease of native coronary artery with angina pectoris
+I25110 ,10,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris
+I25111 ,10,Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm
+I25112 ,10,Atherosclerosic heart disease of native coronary artery with refractory angina pectoris
+I25118 ,10,Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris
+I25119 ,10,Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris
+I252   ,10,Old myocardial infarction
+I254   ,10,Coronary artery aneurysm and dissection
+I2541  ,10,Coronary artery aneurysm
+I2542  ,10,Coronary artery dissection
+I257   ,10,Atherosclerosis of coronary artery bypass graft(s) and coronary artery of transplanted heart with angina pectoris
+I2570  ,10,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris"
+I25700 ,10,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris"
+I25701 ,10,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris with documented spasm"
+I25702 ,10,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with refractory angina pectoris"
+I25708 ,10,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina pectoris"
+I25709 ,10,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris"
+I2571  ,10,Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris
+I25710 ,10,Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris
+I25711 ,10,Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm
+I25712 ,10,Atherosclerosis of autologous vein coronary artery bypass graft(s) with refractory angina pectoris
+I25718 ,10,Atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina pectoris
+I25719 ,10,Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris
+I2572  ,10,Atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris
+I25720 ,10,Atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina pectoris
+I25721 ,10,Atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris with documented spasm
+I25722 ,10,Atherosclerosis of autologous artery coronary artery bypass graft(s) with refractory angina pectoris
+I25728 ,10,Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris
+I25729 ,10,Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris
+I2573  ,10,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris
+I25730 ,10,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unstable angina pectoris
+I25731 ,10,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris with documented spasm
+I25732 ,10,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with refractory angina pectoris
+I25738 ,10,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with other forms of angina pectoris
+I25739 ,10,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unspecified angina pectoris
+I2575  ,10,Atherosclerosis of native coronary artery of transplanted heart with angina pectoris
+I25750 ,10,Atherosclerosis of native coronary artery of transplanted heart with unstable angina
+I25751 ,10,Atherosclerosis of native coronary artery of transplanted heart with angina pectoris with documented spasm
+I25752 ,10,Atherosclerosis of native coronary artery of transplanted heart with refractory angina pectoris
+I25758 ,10,Atherosclerosis of native coronary artery of transplanted heart with other forms of angina pectoris
+I25759 ,10,Atherosclerosis of native coronary artery of transplanted heart with unspecified angina pectoris
+I2576  ,10,Atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris
+I25760 ,10,Atherosclerosis of bypass graft of coronary artery of transplanted heart with unstable angina
+I25761 ,10,Atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris with documented spasm
+I25762 ,10,Atherosclerosis of bypass graft of coronary artery of transplanted heart with refractory angina pectoris
+I25768 ,10,Atherosclerosis of bypass graft of coronary artery of transplanted heart with other forms of angina pectoris
+I25769 ,10,Atherosclerosis of bypass graft of coronary artery of transplanted heart with unspecified angina pectoris
+I2579  ,10,Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris
+I25790 ,10,Atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris
+I25791 ,10,Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris with documented spasm
+I25792 ,10,Atherosclerosis of other coronary artery bypass graft(s) with refractory angina pectoris
+I25798 ,10,Atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris
+I25799 ,10,Atherosclerosis of other coronary artery bypass graft(s) with unspecified angina pectoris
+I258   ,10,Other forms of chronic ischemic heart disease
+I2581  ,10,Atherosclerosis of other coronary vessels without angina pectoris
+I25810 ,10,Atherosclerosis of coronary artery bypass graft(s) without angina pectoris
+I25811 ,10,Atherosclerosis of native coronary artery of transplanted heart without angina pectoris
+I25812 ,10,Atherosclerosis of bypass graft of coronary artery of transplanted heart without angina pectoris
+I2582  ,10,Chronic total occlusion of coronary artery
+I2583  ,10,Coronary atherosclerosis due to lipid rich plaque
+I2584  ,10,Coronary atherosclerosis due to calcified coronary lesion
+I2589  ,10,Other forms of chronic ischemic heart disease
+I259   ,10,"Chronic ischemic heart disease, unspecified"

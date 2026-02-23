@@ -1,0 +1,90 @@
+long_title,N,percent,classification
+Atherosclerotic heart disease of native coronary artery without angina pectoris,41550,26.6,CCS
+Coronary atherosclerosis of native coronary artery,36083,23.1,未达诊断标准
+Old myocardial infarction,30455,19.49,未定型
+"Coronary atherosclerosis of unspecified type of vessel, native or graft",12144,7.77,未定型
+Non-ST elevation (NSTEMI) myocardial infarction,5253,3.36,NSTEMI
+Myocardial infarction type 2,3217,2.06,未达诊断标准
+Other and unspecified angina pectoris,2907,1.86,未定型
+Other specified forms of chronic ischemic heart disease,2836,1.82,CCS
+Intermediate coronary syndrome,2712,1.74,UA
+Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,2551,1.63,UA
+Chronic total occlusion of coronary artery,2392,1.53,未定型
+Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris,1875,1.2,未定型
+Other forms of acute ischemic heart disease,1487,0.95,未定型
+Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,1417,0.91,未定型
+"Other acute and subacute forms of ischemic heart disease, other",1256,0.8,UA
+Coronary atherosclerosis of autologous vein bypass graft,1162,0.74,未定型
+Coronary atherosclerosis due to calcified coronary lesion,548,0.35,未定型
+Atherosclerosis of coronary artery bypass graft(s) without angina pectoris,503,0.32,未定型
+"Chronic ischemic heart disease, unspecified",444,0.28,CCS
+"Acute myocardial infarction of other inferior wall, initial episode of care",421,0.27,STEMI
+ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall,410,0.26,STEMI
+"Acute myocardial infarction of other anterior wall, initial episode of care",349,0.22,STEMI
+ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall,311,0.2,STEMI
+"Acute myocardial infarction of unspecified site, initial episode of care",265,0.17,未定型
+ST elevation (STEMI) myocardial infarction of unspecified site,244,0.16,STEMI
+Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris,190,0.12,UA
+Coronary artery dissection,180,0.12,未达诊断标准
+Dissection of coronary artery,171,0.11,未达诊断标准
+"Angina pectoris, unspecified",162,0.1,未定型
+Prinzmetal angina,160,0.1,UA
+"Acute myocardial infarction of unspecified site, subsequent episode of care",151,0.1,未定型
+Angina pectoris with documented spasm,145,0.09,未定型
+ST elevation (STEMI) myocardial infarction involving right coronary artery,143,0.09,STEMI
+ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery,123,0.08,STEMI
+"Acute myocardial infarction of anterolateral wall, initial episode of care",113,0.07,STEMI
+Other forms of angina pectoris,110,0.07,未定型
+"Acute myocardial infarction of inferolateral wall, initial episode of care",106,0.07,STEMI
+Unstable angina,104,0.07,UA
+Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm,103,0.07,未定型
+"Acute myocardial infarction of inferoposterior wall, initial episode of care",93,0.06,STEMI
+Coronary atherosclerosis of artery bypass graft,92,0.06,未定型
+Subsequent non-ST elevation (NSTEMI) myocardial infarction,92,0.06,
+"Acute ischemic heart disease, unspecified",91,0.06,
+Acute coronary thrombosis not resulting in myocardial infarction,83,0.05,
+Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris,80,0.05,
+ST elevation (STEMI) myocardial infarction involving other sites,78,0.05,STEMI
+Coronary atherosclerosis of unspecified bypass graft,72,0.05,
+Atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina pectoris,70,0.04,
+Postinfarction angina,60,0.04,
+"Acute myocardial infarction of other inferior wall, subsequent episode of care",55,0.04,
+"Acute myocardial infarction of other anterior wall, subsequent episode of care",52,0.03,
+Other myocardial infarction type,47,0.03,
+"Acute myocardial infarction of other lateral wall, initial episode of care",43,0.03,
+Coronary artery aneurysm,42,0.03,
+ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery,41,0.03,STEMI
+Postmyocardial infarction syndrome,38,0.02,
+"Acute myocardial infarction of other specified sites, initial episode of care",36,0.02,
+Atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina pectoris,36,0.02,
+"Acute myocardial infarction, unspecified",26,0.02,
+Aneurysm of coronary vessels,21,0.01,
+Coronary atherosclerosis due to lipid rich plaque,21,0.01,
+Acute coronary occlusion without myocardial infarction,20,0.01,
+ST elevation (STEMI) myocardial infarction involving left main coronary artery,18,0.01,STEMI
+"Acute myocardial infarction of other specified sites, subsequent episode of care",15,0.01,
+"Acute myocardial infarction of inferolateral wall, subsequent episode of care",12,0.01,
+"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris",12,0.01,
+Other forms of chronic ischemic heart disease,12,0.01,
+Subsequent ST elevation (STEMI) myocardial infarction of inferior wall,11,0.01,
+Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris,11,0.01,
+"Acute myocardial infarction of anterolateral wall, subsequent episode of care",10,0.01,
+"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris",10,0.01,
+Subsequent ST elevation (STEMI) myocardial infarction of unspecified site,9,0.01,
+Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris,8,0.01,
+Atherosclerosis of native coronary artery of transplanted heart without angina pectoris,7,0,
+Subsequent ST elevation (STEMI) myocardial infarction of anterior wall,6,0,
+Subsequent ST elevation (STEMI) myocardial infarction of other sites,6,0,
+"Atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina pectoris",5,0,
+Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm,5,0,
+"Acute myocardial infarction of other anterior wall, episode of care unspecified",3,0,
+"Acute myocardial infarction of inferoposterior wall, subsequent episode of care",3,0,
+"Acute myocardial infarction of other inferior wall, episode of care unspecified",3,0,
+"Acute myocardial infarction of unspecified site, episode of care unspecified",3,0,
+Atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris,3,0,
+Angina decubitus,2,0,
+Atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris with documented spasm,2,0,
+"Acute myocardial infarction of other lateral wall, subsequent episode of care",1,0,
+Coronary atherosclerosis of bypass graft (artery) (vein) of transplanted heart,1,0,
+Atherosclerosis of native coronary artery of transplanted heart with other forms of angina pectoris,1,0,
+Atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris,1,0,
